@@ -1,11 +1,10 @@
+//code13
 #include <stdio.h>
-
 int main() {
     int n, first = 0, second = 1, next;
 
     printf("Enter number of terms: ");
     scanf("%d", &n);
-
     printf("Fibonacci Series:\n");
 
     for(int i = 0; i < n; i++) {
@@ -18,6 +17,5 @@ int main() {
         }
         printf("%d ", next);
     }
-
     return 0;
 }
