@@ -59,11 +59,8 @@ int main() {
             case 4:
                 printf("Exiting program...\n");
                 break;
-
             default:
-                printf("Invalid choice!\n");
-        }
-
-    } while(choice != 4);
+                printf("Invalid choice!\n"); }
+   } while(choice != 4);
     return 0;
 }
